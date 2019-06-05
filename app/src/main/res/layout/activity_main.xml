@@ -72,4 +72,37 @@
         app:layout_constraintEnd_toStartOf="@id/guideline_right"
         app:layout_constraintTop_toBottomOf="@+id/password"/>
 
+    <View
+        android:id="@+id/or_line_1"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/login_form_details_medium"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/forgot_password"
+        app:layout_constraintBottom_toTopOf="@+id/facebook_login"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@id/or"/>
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textSize="16dp"
+        android:textColor="@color/login_form_details"
+        app:layout_constraintBottom_toBottomOf="@id/or_line_1"
+        app:layout_constraintTop_toTopOf="@id/or_line_1"
+        app:layout_constraintEnd_toStartOf="@id/or_line_2"
+        app:layout_constraintStart_toEndOf="@id/or_line_1"/>
+
+    <View
+        android:id="@+id/or_line_2"
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:background="@color/login_form_details_medium"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintBottom_toBottomOf="@+id/or"
+        app:layout_constraintStart_toEndOf="@id/or"
+        app:layout_constraintTop_toTopOf="@+id/or" />
+
 </android.support.constraint.ConstraintLayout>
