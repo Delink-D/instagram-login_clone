@@ -2,7 +2,7 @@
 
 A practice design of android activities, the app is a basic single activity Instagram login clone that has no functionality conneccted to it.
 
-![Instagram clone login page](https://raw.githubusercontent.com/Delink-D/instagram-login_clone/master/screen-shot/login-1.png){width="390px"}
+![Instagram clone login page](https://raw.githubusercontent.com/Delink-D/instagram-login_clone/master/screen-shot/login-1.png)
 
 ## Prerequisites
 
