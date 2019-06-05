@@ -61,6 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/username"/>
 
     <Button
+        android:id="@+id/login_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -71,6 +72,52 @@
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toStartOf="@id/guideline_right"
         app:layout_constraintTop_toBottomOf="@+id/password"/>
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Don't remember password?"
+        android:textColor="@color/login_form_details"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"/>
+
+    <View
+        android:id="@+id/footer_line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/dont_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/login_form_details"
+        android:text="Don't have an account?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footer_line"/>
+
+    <TextView
+        android:id="@+id/facebook_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Facebook"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/login_form_details"
+        app:layout_constraintBottom_toTopOf="@+id/footer_line"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toStartOf="@id/guideline_right"
+        android:drawableStart="@drawable/ic_icon_facebook"
+        android:drawableLeft="@drawable/ic_icon_facebook"
+        android:drawablePadding="8dp" />
 
     <View
         android:id="@+id/or_line_1"
