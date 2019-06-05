@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Login-1</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_btn">Login Now</string>
+    <string name="forgot_password">Don\'t remember password?</string>
+    <string name="sign_up">Don\'t have an account? Sign up</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="or">Or</string>
 </resources>
